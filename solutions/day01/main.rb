@@ -2,24 +2,19 @@
 
 DATA = File.read('data.txt').split.map(&:to_i)
 
-def part1 data
-    DATA.each do |n|
-        DATA.each do |m|
-            return [m, n] if n + m == 2020
+def find_values_by_sum data, sum, num_values = 1
+    if num_values == 1
+        r = data.find{ |x| x == sum }
+        return [r] if r
+    else
+        data.each_index do |n|
+            next if data[n] > sum
+            ret = find_values_by_sum(data[(n+1)...-1], sum-data[n], num_values-1)
+            return [data[n]] + ret if ret and ret.size > 0
         end
     end
+    nil
 end
 
-def part2 data
-    DATA.each do |n|
-        DATA.each do |m|
-            DATA.each do |o|
-                return [m, n, o] if n + m +o == 2020
-            end
-        end
-    end
-end
-
-
-puts 'Part 1: %s' % part1(DATA).inject(:*)
-puts 'Part 2: %s' % part2(DATA).inject(:*)
+puts 'Part 1: %s' % find_values_by_sum(DATA, 2020, 2).inject(:*)
+puts 'Part 2: %s' % find_values_by_sum(DATA, 2020, 3).inject(:*)
