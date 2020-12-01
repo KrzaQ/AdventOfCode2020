@@ -1,0 +1,13 @@
+* text eol=lf
+
+*.cpp text
+*.d text
+*.di text
+*.json text
+*.md text
+*.rb text
+
+*.jpg binary
+*.png binary
+*.ods binary
+
