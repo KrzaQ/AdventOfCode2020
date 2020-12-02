@@ -9,6 +9,16 @@
             }
         ]
     },
+    "day02": {
+        "desc": "Password Philosophy",
+        "path": "solutions/day02",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
