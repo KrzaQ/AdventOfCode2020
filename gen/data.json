@@ -49,6 +49,16 @@
             }
         ]
     },
+    "day06": {
+        "desc": "Custom Customs",
+        "path": "solutions/day06",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
