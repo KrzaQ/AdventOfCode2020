@@ -1,4 +1,4 @@
-to_seat = ->(l) { l.gsub(/F|L/, '0').gsub(/B|R/, '1').to_i(2) }
+to_seat = -> l { l.gsub(/F|L/, '0').gsub(/B|R/, '1').to_i(2) }
 SEATS = File.read('data.txt').split.map{ |l| to_seat[l] }
 
 PART1 = SEATS.max
