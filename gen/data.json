@@ -59,6 +59,16 @@
             }
         ]
     },
+    "day07": {
+        "desc": "Handy Haversacks",
+        "path": "solutions/day07",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
