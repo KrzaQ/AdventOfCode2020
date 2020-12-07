@@ -1,49 +1,15 @@
-DATA = File.read('data.txt').split("\n")
+DATA = File.read('data.txt').split("\n").map do |line|
+    key = line.split[0..1].join(' ')
+    values = line.scan(/(\d)+ (\w+ \w+) bag/).map{ |n, t| [key, [n.to_i, t]] }
+end.flatten(1)
 
-xxx = DATA.map do |line|
-    xx = line.split[0..1].join(' ')
-    r = line.scan(/\d+ (\w+ \w+) bag/).map do |x|
-        [x, xx].flatten
-    end
-    r
-end.flatten(1).group_by(&:first).map do |k, v|
-    [k, v.map(&:last)]
-end.to_h
+P1D = DATA.group_by{ |k, v| v.last }.map{ |k, v| [k, v.map(&:first)] }.to_h
+p1 = -> k { P1D.fetch(k, []).map{ |x| p1[x] }.flatten.uniq + [k] }
+P2D = DATA.group_by(&:first).map{ |k, v| [k, v.map(&:last)] }.to_h
+p2 = -> k, n { P2D.fetch(k, []).map{ |k, v| p2[v, n*k] }.sum + n }
 
-done = []
-looking = ['shiny gold']
+PART1 = p1['shiny gold'].size - 1
+PART2 = p2['shiny gold', 1] - 1
 
-loop do
-    if looking.size == 0
-        break
-    end
-    to_add = xxx.fetch(looking.first, [])
-    to_add
-    looking |= to_add - done
-    done.push looking.first
-    looking = looking[1..-1]
-end
-
-p done.size - 1
-
-xxx = DATA.map do |line|
-    xx = line.split[0..1].join(' ')
-    r = [xx, line.scan(/(\d+) (\w+ \w+) bag/)]
-    r
-end.to_h
-
-count = 0
-looking = [[1, 'shiny gold']]
-loop do
-    if looking.size == 0
-        break
-    end
-    n, type = *looking.first
-    exit if n > 1000000
-    to_add = xxx.fetch(type, [])
-    looking += to_add.map{ |m, t| [(m.to_i * n), t] }
-    count += n
-    looking = looking[1..-1]
-end
-
-p count - 1
+puts 'Part 1: %s' % PART1
+puts 'Part 2: %s' % PART2
