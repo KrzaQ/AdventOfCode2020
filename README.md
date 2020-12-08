@@ -12,6 +12,7 @@ I'm using various languages to provide solutions.
 | 05 | [Binary Boarding][day05] | [:heavy_check_mark:](solutions/day05/main.rb) |
 | 06 | [Custom Customs][day06] | [:heavy_check_mark:](solutions/day06/main.rb) |
 | 07 | [Handy Haversacks][day07] | [:heavy_check_mark:](solutions/day07/main.rb) |
+| 08 | [Handheld Halting][day08] | [:heavy_check_mark:](solutions/day08/main.rb) |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -20,7 +21,8 @@ I'm using various languages to provide solutions.
 [day05]: https://adventofcode.com/2020/day/5
 [day06]: https://adventofcode.com/2020/day/6
 [day07]: https://adventofcode.com/2020/day/7
+[day08]: https://adventofcode.com/2020/day/8
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-07 06:24:29 +0100
+Readme generated on 2020-12-08 06:27:57 +0100
