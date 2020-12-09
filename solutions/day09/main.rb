@@ -1,14 +1,7 @@
-DATA = File.read('data.txt').scan(/\d+/).map(&:to_i)
+D = File.read('data.txt').scan(/\d+/).map(&:to_i)
+P1 = D.each_cons(26).find{ |*a,b| !a.permutation(2).find{ |l, r| l+r==b } }.last
+p2=->s,e{{1=>->{p2[s+1,e]},0=>->{[s,e]},-1=>->{p2[s,e+1]}}[D[s...e].sum<=>P1][]}
+P2 = D[Range.new(*p2[0,1])].minmax.sum
 
-PART1 = DATA.each_cons(26).find do |*a, b|
-    not a.permutation(2).find{ |l, r| l + r == b }
-end.last
-
-def p2 s = 0, e = 1
-    r = DATA[s...e].sum
-    r < PART1 ? p2(s, e+1) : r > PART1 ? p2(s+1, e) : [s, e]
-end
-PART2 = DATA[Range.new(*p2)].minmax.sum
-
-puts 'Part 1: %s' % PART1
-puts 'Part 2: %s' % PART2
+puts 'Part 1: %s' % P1
+puts 'Part 2: %s' % P2
