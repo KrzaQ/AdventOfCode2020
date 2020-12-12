@@ -16,6 +16,7 @@ I'm using various languages to provide solutions.
 | 09 | [Encoding Error][day09] | [:heavy_check_mark:](solutions/day09/main.rb) |
 | 10 | [Adapter Array][day10] | [:heavy_check_mark:](solutions/day10/main.rb) |
 | 11 | [Seating System][day11] | [:heavy_check_mark:](solutions/day11/main.rb) |
+| 12 | [Rain Risk][day12] | [:heavy_check_mark:](solutions/day12/main.rb) |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -28,7 +29,8 @@ I'm using various languages to provide solutions.
 [day09]: https://adventofcode.com/2020/day/9
 [day10]: https://adventofcode.com/2020/day/10
 [day11]: https://adventofcode.com/2020/day/11
+[day12]: https://adventofcode.com/2020/day/12
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-11 06:39:56 +0100
+Readme generated on 2020-12-12 06:27:18 +0100

@@ -109,6 +109,16 @@
             }
         ]
     },
+    "day12": {
+        "desc": "Rain Risk",
+        "path": "solutions/day12",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
