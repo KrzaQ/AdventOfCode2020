@@ -119,6 +119,16 @@
             }
         ]
     },
+    "day13": {
+        "desc": "Shuttle Search",
+        "path": "solutions/day13",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
