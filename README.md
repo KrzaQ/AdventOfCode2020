@@ -19,6 +19,7 @@ I'm using various languages to provide solutions.
 | 12 | [Rain Risk][day12] | [:heavy_check_mark:](solutions/day12/main.rb) |
 | 13 | [Shuttle Search][day13] | [:heavy_check_mark:](solutions/day13/main.rb) |
 | 14 | [Docking Data][day14] | [:heavy_check_mark:](solutions/day14/main.rb) |
+| 15 | [Rambunctious Recitation][day15] | [:heavy_check_mark:](solutions/day15/main.rb) |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -34,7 +35,8 @@ I'm using various languages to provide solutions.
 [day12]: https://adventofcode.com/2020/day/12
 [day13]: https://adventofcode.com/2020/day/13
 [day14]: https://adventofcode.com/2020/day/14
+[day15]: https://adventofcode.com/2020/day/15
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-14 06:49:27 +0100
+Readme generated on 2020-12-15 06:19:41 +0100
