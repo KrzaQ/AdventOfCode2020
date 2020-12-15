@@ -1,11 +1,9 @@
-DATA = File.read('data.txt').split(?,).map(&:to_i)
+DATA = File.read('data.txt').split(?,).map(&:to_i).freeze
+MEM = DATA.each.with_index(1).to_h.freeze
 
-def calc_xth x
-    mem = DATA.each_with_index.to_h.transform_values(&:succ)
+def calc_xth x, mem = MEM.dup
     (DATA.size...x).inject(DATA.last) do |last, turn|
-        v = mem.fetch(last, turn)
-        mem[last] = turn
-        turn - v
+        turn - mem.fetch(last, turn).tap{ mem[last] = turn }
     end
 end
 
