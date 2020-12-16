@@ -149,6 +149,16 @@
             }
         ]
     },
+    "day16": {
+        "desc": "Ticket Translation",
+        "path": "solutions/day16",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
