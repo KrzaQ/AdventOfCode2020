@@ -24,6 +24,7 @@ I'm using various languages to provide solutions.
 | 17 | [Conway Cubes][day17] | [:heavy_check_mark:](solutions/day17/main.rb) |
 | 18 | [Operation Order][day18] | [:heavy_check_mark:](solutions/day18/main.rb) |
 | 19 | [Monster Messages][day19] | [:heavy_check_mark:](solutions/day19/main.rb) |
+| 20 | [Jurassic Jigsaw][day20] | [:heavy_check_mark:](solutions/day20/main.rb) |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -44,7 +45,8 @@ I'm using various languages to provide solutions.
 [day17]: https://adventofcode.com/2020/day/17
 [day18]: https://adventofcode.com/2020/day/18
 [day19]: https://adventofcode.com/2020/day/19
+[day20]: https://adventofcode.com/2020/day/20
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-23 08:07:24 +0100
+Readme generated on 2020-12-23 08:11:32 +0100
