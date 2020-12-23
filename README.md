@@ -23,6 +23,7 @@ I'm using various languages to provide solutions.
 | 16 | [Ticket Translation][day16] | [:heavy_check_mark:](solutions/day16/main.rb) |
 | 17 | [Conway Cubes][day17] | [:heavy_check_mark:](solutions/day17/main.rb) |
 | 18 | [Operation Order][day18] | [:heavy_check_mark:](solutions/day18/main.rb) |
+| 19 | [Monster Messages][day19] | [:heavy_check_mark:](solutions/day19/main.rb) |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -42,7 +43,8 @@ I'm using various languages to provide solutions.
 [day16]: https://adventofcode.com/2020/day/16
 [day17]: https://adventofcode.com/2020/day/17
 [day18]: https://adventofcode.com/2020/day/18
+[day19]: https://adventofcode.com/2020/day/19
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-18 06:27:01 +0100
+Readme generated on 2020-12-23 08:07:24 +0100

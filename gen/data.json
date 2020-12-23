@@ -179,6 +179,16 @@
             }
         ]
     },
+    "day19": {
+        "desc": "Monster Messages",
+        "path": "solutions/day19",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
