@@ -3,30 +3,31 @@
 
 I'm using various languages to provide solutions.
 
-| Day | Name | Ruby |
-|:---:|:---|:---:|
-| 01 | [Report Repair][day01] | [:heavy_check_mark:](solutions/day01/main.rb) |
-| 02 | [Password Philosophy][day02] | [:heavy_check_mark:](solutions/day02/main.rb) |
-| 03 | [Toboggan Trajectory][day03] | [:heavy_check_mark:](solutions/day03/main.rb) |
-| 04 | [Passport Processing][day04] | [:heavy_check_mark:](solutions/day04/main.rb) |
-| 05 | [Binary Boarding][day05] | [:heavy_check_mark:](solutions/day05/main.rb) |
-| 06 | [Custom Customs][day06] | [:heavy_check_mark:](solutions/day06/main.rb) |
-| 07 | [Handy Haversacks][day07] | [:heavy_check_mark:](solutions/day07/main.rb) |
-| 08 | [Handheld Halting][day08] | [:heavy_check_mark:](solutions/day08/main.rb) |
-| 09 | [Encoding Error][day09] | [:heavy_check_mark:](solutions/day09/main.rb) |
-| 10 | [Adapter Array][day10] | [:heavy_check_mark:](solutions/day10/main.rb) |
-| 11 | [Seating System][day11] | [:heavy_check_mark:](solutions/day11/main.rb) |
-| 12 | [Rain Risk][day12] | [:heavy_check_mark:](solutions/day12/main.rb) |
-| 13 | [Shuttle Search][day13] | [:heavy_check_mark:](solutions/day13/main.rb) |
-| 14 | [Docking Data][day14] | [:heavy_check_mark:](solutions/day14/main.rb) |
-| 15 | [Rambunctious Recitation][day15] | [:heavy_check_mark:](solutions/day15/main.rb) |
-| 16 | [Ticket Translation][day16] | [:heavy_check_mark:](solutions/day16/main.rb) |
-| 17 | [Conway Cubes][day17] | [:heavy_check_mark:](solutions/day17/main.rb) |
-| 18 | [Operation Order][day18] | [:heavy_check_mark:](solutions/day18/main.rb) |
-| 19 | [Monster Messages][day19] | [:heavy_check_mark:](solutions/day19/main.rb) |
-| 20 | [Jurassic Jigsaw][day20] | [:heavy_check_mark:](solutions/day20/main.rb) |
-| 21 | [Allergen Assessment][day21] | [:heavy_check_mark:](solutions/day21/main.rb) |
-| 22 | [Crab Combat][day22] | [:heavy_check_mark:](solutions/day22/main.rb) |
+| Day | Name | Ruby | C++ |
+|:---:|:---|:---:|:---:|
+| 01 | [Report Repair][day01] | [:heavy_check_mark:](solutions/day01/main.rb) |  |
+| 02 | [Password Philosophy][day02] | [:heavy_check_mark:](solutions/day02/main.rb) |  |
+| 03 | [Toboggan Trajectory][day03] | [:heavy_check_mark:](solutions/day03/main.rb) |  |
+| 04 | [Passport Processing][day04] | [:heavy_check_mark:](solutions/day04/main.rb) |  |
+| 05 | [Binary Boarding][day05] | [:heavy_check_mark:](solutions/day05/main.rb) |  |
+| 06 | [Custom Customs][day06] | [:heavy_check_mark:](solutions/day06/main.rb) |  |
+| 07 | [Handy Haversacks][day07] | [:heavy_check_mark:](solutions/day07/main.rb) |  |
+| 08 | [Handheld Halting][day08] | [:heavy_check_mark:](solutions/day08/main.rb) |  |
+| 09 | [Encoding Error][day09] | [:heavy_check_mark:](solutions/day09/main.rb) |  |
+| 10 | [Adapter Array][day10] | [:heavy_check_mark:](solutions/day10/main.rb) |  |
+| 11 | [Seating System][day11] | [:heavy_check_mark:](solutions/day11/main.rb) |  |
+| 12 | [Rain Risk][day12] | [:heavy_check_mark:](solutions/day12/main.rb) |  |
+| 13 | [Shuttle Search][day13] | [:heavy_check_mark:](solutions/day13/main.rb) |  |
+| 14 | [Docking Data][day14] | [:heavy_check_mark:](solutions/day14/main.rb) |  |
+| 15 | [Rambunctious Recitation][day15] | [:heavy_check_mark:](solutions/day15/main.rb) |  |
+| 16 | [Ticket Translation][day16] | [:heavy_check_mark:](solutions/day16/main.rb) |  |
+| 17 | [Conway Cubes][day17] | [:heavy_check_mark:](solutions/day17/main.rb) |  |
+| 18 | [Operation Order][day18] | [:heavy_check_mark:](solutions/day18/main.rb) |  |
+| 19 | [Monster Messages][day19] | [:heavy_check_mark:](solutions/day19/main.rb) |  |
+| 20 | [Jurassic Jigsaw][day20] | [:heavy_check_mark:](solutions/day20/main.rb) |  |
+| 21 | [Allergen Assessment][day21] | [:heavy_check_mark:](solutions/day21/main.rb) |  |
+| 22 | [Crab Combat][day22] | [:heavy_check_mark:](solutions/day22/main.rb) |  |
+| 23 | [Crab Cups][day23] | [:heavy_check_mark:](solutions/day23/main.rb) | [:heavy_check_mark:](solutions/day23/main.cpp) |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -50,7 +51,8 @@ I'm using various languages to provide solutions.
 [day20]: https://adventofcode.com/2020/day/20
 [day21]: https://adventofcode.com/2020/day/21
 [day22]: https://adventofcode.com/2020/day/22
+[day23]: https://adventofcode.com/2020/day/23
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-23 08:21:43 +0100
+Readme generated on 2020-12-23 08:26:08 +0100

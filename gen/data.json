@@ -219,7 +219,21 @@
             }
         ]
     },
+    "day23": {
+        "desc": "Crab Cups",
+        "path": "solutions/day23",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            },
+            {
+                "language": "C++",
+                "path": "main.cpp"
+            }
+        ]
+    },
     "ordering": [
-        "Ruby"
+        "Ruby", "C++"
     ]
 }
