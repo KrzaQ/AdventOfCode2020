@@ -199,6 +199,16 @@
             }
         ]
     },
+    "day21": {
+        "desc": "Allergen Assessment",
+        "path": "solutions/day21",
+        "solutions": [
+            {
+                "language": "Ruby",
+                "path": "main.rb"
+            }
+        ]
+    },
     "ordering": [
         "Ruby"
     ]
