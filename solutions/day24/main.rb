@@ -9,14 +9,9 @@ end.tally.reject{ _2 % 2 == 0 }.to_h
 
 def next_round blacks
     around = blacks.to_a.map{ |pt| AROUND[pt] }.flatten(1).uniq - blacks.to_a
-    new_blacks = blacks.reject do |pt|
-        c = AROUND[pt].count{ blacks.include? _1 }
-        c == 0 or c > 2
-    end + around.select do |pt|
-        c = AROUND[pt].count{ blacks.include? _1 }
-        c == 2
-    end
-    new_blacks.sort.uniq.to_set
+    ns = -> pt { AROUND[pt].count{ blacks.include? _1 } }
+    blacks.reject{ c = ns[_1]; c == 0 or c > 2 }
+        .yield_self{ |s| s + around.select{ ns[_1] == 2 } }.sort.uniq.to_set
 end
 
 puts 'Part 1: %s' % DATA.size
