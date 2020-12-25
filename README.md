@@ -29,6 +29,7 @@ I'm using various languages to provide solutions.
 | 22 | [Crab Combat][day22] | [:heavy_check_mark:](solutions/day22/main.rb) |  |
 | 23 | [Crab Cups][day23] | [:heavy_check_mark:](solutions/day23/main.rb) | [:heavy_check_mark:](solutions/day23/main.cpp) |
 | 24 | [Lobby Layout][day24] | [:heavy_check_mark:](solutions/day24/main.rb) |  |
+| 25 | [Combo Breaker][day25] | [:heavy_check_mark:](solutions/day25/main.rb) |  |
 
 [day01]: https://adventofcode.com/2020/day/1
 [day02]: https://adventofcode.com/2020/day/2
@@ -54,7 +55,8 @@ I'm using various languages to provide solutions.
 [day22]: https://adventofcode.com/2020/day/22
 [day23]: https://adventofcode.com/2020/day/23
 [day24]: https://adventofcode.com/2020/day/24
+[day25]: https://adventofcode.com/2020/day/25
 
 [kq]: https://dev.krzaq.cc
 
-Readme generated on 2020-12-24 06:31:58 +0100
+Readme generated on 2020-12-25 06:20:23 +0100
